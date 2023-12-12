@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+body {
+    padding: 50px;
+    background-image: url('https://media.tenor.com/i0nzuUl-6wQAAAAC/background.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-style: groove;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+}
+
+.container2 {
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-style: groove;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    margin-top: 150px;
+}
+
+
+.btn {
+    float: right;
+}
+.form-group {
+    margin-bottom: 30px;
+}
+
+.btn:hover{
+    background: orangered;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+
+
+.form-btn a {
+    color: white;
+}
+
+h5, a {
+    color: white;
+    padding-top: 15px;
+}

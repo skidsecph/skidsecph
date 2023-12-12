@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container { 
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    background: #161616;
+    z-index: 1;
+    transition: 0.5s ease;
+    transform: translateX(-300px);
+}
+
+.container .head {
+    color: #fbfdce;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    background: linear-gradient(30deg, #df0155, #ed4901);
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+}
+ul li {
+    display: block;
+    width: 100%;
+}
+ul li a {
+    color: #fbfdce;
+    padding: 15px 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: relative;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+ul li:hover a{
+    background: #030303;
+    color: #00eaff;
+    letter-spacing: 5px;
+}
+
+input { 
+    visibility: hidden;
+    display: none;
+}
+
+span {
+    position: absolute;
+    right: -40px;
+    top: 30px;
+    font-size: 25px;
+    border-radius: 3px;
+    color: #fff;
+    padding: 3px 8px;
+    cursor: pointer;
+    background: #000;
+}
+
+#bars {
+    background: red;
+}
+
+#check:checked ~ .container {
+    transform: translateX(0);
+}
+
+#check:checked ~ .container #bars{
+    display: none;
+}
+
+section {
+    min-height: 100vh;
+    background: url(/img/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s;
+    filter: brightness(60%);
+    display: flex;
+    justify-content: center;
+}
+#check:checked ~ section {
+    transform: scale(1.2);
+    filter: brightness(20%);
+}
+
+.head a {
+    text-decoration: none;
+    color: white;
+}
+
+.head a:hover{
+    position: relative;
+    transition: 0.3s;
+    overflow: hidden;
+    background: #030303;
+    color: #00eaff;
+    letter-spacing: 5px;
+}
+
+.material-symbols-outlined {
+    right: 50px;
+    top: 25px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 62px;
+    color:white;
+    opacity:0.7;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+  .material-symbols-outlined:hover {
+    color: aqua;
+    opacity: 0.5;
+  }

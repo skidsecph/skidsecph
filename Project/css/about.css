@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+
+img{
+    height: 50px;
+}
+
+body{
+    background-color: black;
+    font-size: 18px;
+    background-image: url('https://steamuserimages-a.akamaihd.net/ugc/847092187909232389/B30FDC786E112747191946B2E3C783731F810FA0/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true');
+    background-size: cover;
+}
+
+.text{
+    color: white;
+}
+span{
+    color: red;
+    font-weight: bold;
+}
+
+.text-div{
+    margin-top: 5%;
+    text-align: center;
+}
+
+p{
+    color: white;
+}
